@@ -13,7 +13,7 @@ conda env create -f env.yml
 conda activate map
 ```
 
-Training requires Linux and CUDA GPUs. The environment pins the main dependencies, including the TRL commit used by the implementation.
+Training requires Linux and CUDA GPUs. The environment pins the main dependencies used by the implementation.
 
 Model weights and datasets download from Hugging Face on first use. For offline execution, download them beforehand and configure your Hugging Face caches. A local model directory can be supplied through `--model_path`.
 
@@ -132,7 +132,7 @@ Answer extraction and normalization follow the experimental implementation.
 
 ## Acknowledgments and license
 
-This implementation builds on [d1](https://github.com/dllm-reasoning/d1), [TRL](https://github.com/huggingface/trl), and [LLaDA](https://github.com/ML-GSAI/LLaDA). Repository organization was informed by [SPG](https://github.com/facebookresearch/SPG).
+We thank the authors of [d1](https://github.com/dllm-reasoning/d1), [d2](https://github.com/kuleshov-group/d2), and [SPG](https://github.com/facebookresearch/SPG) for making their research and code publicly available. This implementation uses [LLaDA](https://github.com/ML-GSAI/LLaDA) as its base model.
 
 Code is distributed under the Apache-2.0 license; see `LICENSE`. Model weights and datasets retain their respective licenses.
 
