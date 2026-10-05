@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+checkpoints/
+results/
+logs/
+wandb/
+*.out
+*.err
+*.pt
+*.pth
+*.safetensors
+.cache/
